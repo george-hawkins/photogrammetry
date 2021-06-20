@@ -21,7 +21,7 @@ And these two lower quality images elsewhere on Amazon:
 
 And finally these two much smaller image, elsewhere on the web:
 
-![glasses](images/glasses/TF5146/36801_2.jpeg)
+![glasses](images/glasses/TF5146/36801_2.png)
 
 ![glasses](images/glasses/TF5146/TomFord-TF5146.jpeg)
 
@@ -32,27 +32,27 @@ In the current Tom Ford range, the front of my glasses are somewhere between the
 FT5313
 ------
 
-![glasses](images/glasses/FT5313/FT5313_055_OS_A.jpeg)
+![glasses](images/glasses/FT5313/FT5313_055_OS_A.png)
 
-![glasses](images/glasses/FT5313/FT5313_055_OS_B.jpeg)
+![glasses](images/glasses/FT5313/FT5313_055_OS_B.png)
 
-![glasses](images/glasses/FT5313/FT5313_055_OS_C.jpeg)
+![glasses](images/glasses/FT5313/FT5313_055_OS_C.png)
 
 FT5663-B
 --------
 
-![glasses](images/glasses/FT5663-B/FT5663-B_055_OS_A.jpeg)
+![glasses](images/glasses/FT5663-B/FT5663-B_055_OS_A.png)
 
-![glasses](images/glasses/FT5663-B/FT5663-B_055_OS_B.jpeg)
+![glasses](images/glasses/FT5663-B/FT5663-B_055_OS_B.png)
 
-![glasses](images/glasses/FT5663-B/FT5663-B_055_OS_C.jpeg)
+![glasses](images/glasses/FT5663-B/FT5663-B_055_OS_C.png)
 
 FT5304
 ------
 
-![glasses](images/glasses/FT5304/FT5304_052_OS_B.jpeg)
+![glasses](images/glasses/FT5304/FT5304_052_OS_B.png)
 
-![glasses](images/glasses/FT5304/FT5304_052_OS_A.jpeg)
+![glasses](images/glasses/FT5304/FT5304_052_OS_A.png)
 
-![glasses](images/glasses/FT5304/FT5304_052_OS_C.jpeg)
+![glasses](images/glasses/FT5304/FT5304_052_OS_C.png)
 
