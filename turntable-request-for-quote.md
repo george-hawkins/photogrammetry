@@ -14,7 +14,7 @@ I appreciate that some people may find it awkward working with the metric sized 
 
 No additional modification (drilling, bending etc.) should be required.
 
-The only exception to this rule is the plate for the turntable itself - this can be e.g. an aluminium plate (from any source) that's drilled to accommodate the holes for some kind of hub.
+The only exception to this rule is the plate for the turntable itself - this can be e.g. an aluminum plate (from any source) that's drilled to accommodate the holes for some kind of hub.
 
 The aim should be to keep the overall cost of parts low, e.g. Pololu sell several steppers costing more than $150 but ideally something _substantially_ cheaper would be used.
 
@@ -22,7 +22,7 @@ A naive design would involve e.g.:
 
 * A $18 [42x38mm, 2.8V, 1.7 A/Phase, 200 Steps/Rev bibolar stepper](https://www.pololu.com/product/2267)
 * A $6 [5mm bore set screw hub](https://www.gobilda.com/1308-series-lightweight-set-screw-hub-5mm-bore/)
-* A 250mm x 1mm aluminium disc
+* A 250mm x 1mm aluminum disc
 
 Holes would then be drilled in the disc, the hub attached to the disc and then to the motor - job done.
 
@@ -69,3 +69,5 @@ Your input would be welcome - perhaps something completely different, e.g. a las
 
 * Ponoko - https://www.ponoko.com/materials
 * Sculpteo - https://www.sculpteo.com/en/lasercutting/laser-cutting-materials/
+
+See also links in [`README.md`](README.md) to services that will laser cut aluminum.
