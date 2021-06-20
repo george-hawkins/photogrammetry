@@ -167,6 +167,15 @@ Peter France (from Corridor) discusses taking photos (of a rock wall), pulling t
 
 On the Meshroom [download page](https://alicevision.org/#meshroom), they link to various other tutorials, including this [one](https://blog.prusaprinters.org/photogrammetry-2-3d-scanning-simpler-better-than-ever_29393/) from the Prusa 3D Printer people. Their other YouTube [link](https://youtu.be/k4NTf0hMjtY) has much more than Peter's video on bump mapping and basically getting your textures looking right (reducing shininess etc.) in Blender - CG Geek also shows how powerful the Sketchfab viewer is (so perhaps the cost vs a thee.js or babylon.js viewer is worth it for certain use-cases). Finally, the link to non-video [tutorial](https://sketchfab.com/blogs/community/tutorial-meshroom-for-beginners) that goes into using the node setup in Meshroom (all the other tutorials just use the default workflow).
 
+As various sources note, Meshroom doesn't like images with any blurriness - you can automate detecting blurry image with OpenCV and Python (all based on Laplace filter):
+
+* <https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/>
+* <https://www.analyticsvidhya.com/blog/2020/09/how-to-perform-blur-detection-using-opencv-in-python/>
+* <https://pysource.com/2019/09/03/detect-when-an-image-is-blurry-opencv-with-python/>
+* <https://stackoverflow.com/a/7767755/245602>
+
+You should use such an approach to sort your images and throw out the once with the worst score (depending on the subject and other factors, it seems the cut-off threshold will be different for different photo sets).
+
 3D web viewers
 --------------
 
