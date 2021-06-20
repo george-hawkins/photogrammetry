@@ -145,6 +145,10 @@ Green/black/etc. screens on AliExpress:
 
 Material is from same store - the synthetic material is considerably cheaper than the cotton but the comments seem to reflect this difference (the synthetic is often described as thin, having a distinctive smell and other issues).
 
+Stands of the type used by Erik Christensen cost serious money even from AliExpress, e.g. [here](https://www.aliexpress.com/item/4000057161419.html) for the obvious reason that they need to be strong and well balanced not to topple over.
+
+T-shaped stands, like this [one](https://www.aliexpress.com/item/32890532311.html), are considerably cheaper.
+
 PiFuHD
 ------
 
@@ -176,6 +180,36 @@ The two main open source solutions seem to be:
 * tree.js - see their [loading 3D models](https://threejs.org/docs/#manual/en/introduction/Loading-3D-models) documentation. This documentation specifically mentions Don McCurdy's [glTF Viewer](https://github.com/donmccurdy/three-gltf-viewer) as essentially a good reference implementation of a viewer. For another walk thru of creating a viewer see [here](https://manu.ninja/webgl-3d-model-viewer-using-three-js/) on manu.ninja.
 
 Both the official babylon.js [sandbox](https://sandbox.babylonjs.com/) and semi-official tree.js [sandbox](https://gltf-viewer.donmccurdy.com/) work well with the `.glb` model that I created of myself (see [`pifuhd`](pifuhd) subdirectory).
+
+Lip restrainers and wig caps
+----------------------------
+
+For a good 3D model of yourself, you need good photographs of your teeth.
+
+You can do this with spoons as described [here](https://www.worldofsmiles.com/at-home-how-to-take-dental-photos/) and in this [YouTube video](https://www.youtube.com/watch?v=glP78Bp-rdE).
+
+Probably overkill but one can also easily lip restrainers:
+
+* EUR 7 from [Amazon](https://www.amazon.de/Vicloon-Wangenhalter-Mundwinkelhalter-Mund%C3%B6ffner-Zahnaufhellung/dp/B01N0EKDD7/) - pack of 12.
+* Fr. 14 from [M+W Dental](https://www.mwdental.ch/spandex-295327---wangenhalter-20527-d-pg-shop.html) (a proper dental supplier) - pack of 2.
+
+### Wig cap
+
+You also need to get your hair out of the way (and then recreate it later for the model) with something like a wig cap, e.g. this [one](https://www.lightinthebox.com/en/p/5pcs-lot-new-fishnet-wig-cap-stretchable-hair-net-snood-wig-cap-net-weaving-cap-open-end-hair-tools_p5767983.html). After looking at WikiHow and videos like [this](https://www.youtube.com/watch?v=CQdOYJyHaBg), I'm fairly convinced the tube style ones must be a lot easier to use than the more cap-like ones.
+
+ArUco
+-----
+
+I wonder if [ArUco markers](https://docs.opencv.org/3.4/d5/dae/tutorial_aruco_detection.html) printed on a white t-shirt (e.g. by [Din Schrift](https://www.dinschrift.ch/en/technical)) would make generating a full body model easier for Meshroom.
+
+Note: ArUco markers are a form of [fiducial marker](https://en.wikipedia.org/wiki/Fiducial_marker).
+
+Entry level DSLR
+----------------
+
+At the time of writing (June 2021) something like the Canon EOS 2000D (called the Rebel T7 in some markets) with an 18-55mm lens seems to be cheapest of the commonly recommended entry level DSLRs (though at Fr. 390, it's hardly inexpensive). The [Nikon D5100](https://en.wikipedia.org/wiki/Nikon_D5100) comes up in various places as the go-to second-hand entry-level DSLR (introduced in 2011, it's specs still sound respectable).
+
+Note: on some stores the Canon EOS 2000D seems to be sold in ridiculous bundles - various sites say to stay away from bundles and just buy the body and a lens.
 
 Miscellaneous
 -------------
