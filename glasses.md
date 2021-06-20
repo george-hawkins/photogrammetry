@@ -5,25 +5,25 @@ My glasses - model TF5146 - are no longer available from Tom Ford.
 
 I found these four images of them on Amazon:
 
-![glasses](images/glasses/61blJco6yBL._UL1500_.jpg)
+![glasses](images/glasses/TF5146/61blJco6yBL._UL1500_.jpg)
 
-![glasses](images/glasses/71y1ceLIFEL._UL1500_.jpg)
+![glasses](images/glasses/TF5146/71y1ceLIFEL._UL1500_.jpg)
 
-![glasses](images/glasses/61jAIjqv1qL._UL1500_.jpg)
+![glasses](images/glasses/TF5146/61jAIjqv1qL._UL1500_.jpg)
 
-![glasses](images/glasses/71heth4ng8L._UL1500_.jpg)
+![glasses](images/glasses/TF5146/71heth4ng8L._UL1500_.jpg)
 
 And these two lower quality images elsewhere on Amazon:
 
-![glasses](images/glasses/71CAlEhhhLL._AC_UL1500_.jpg)
+![glasses](images/glasses/TF5146/71CAlEhhhLL._AC_UL1500_.jpg)
 
-![glasses](images/glasses/71O2oo5jo1L._AC_UL1500_.jpg)
+![glasses](images/glasses/TF5146/71O2oo5jo1L._AC_UL1500_.jpg)
 
 And finally these two much smaller image, elsewhere on the web:
 
-![glasses](images/glasses/36801_2.jpeg)
+![glasses](images/glasses/TF5146/36801_2.jpeg)
 
-![glasses](images/glasses/TomFord-TF5146.jpeg)
+![glasses](images/glasses/TF5146/TomFord-TF5146.jpeg)
 
 ---
 
