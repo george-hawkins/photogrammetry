@@ -220,6 +220,20 @@ At the time of writing (June 2021) something like the Canon EOS 2000D (called th
 
 Note: on some stores the Canon EOS 2000D seems to be sold in ridiculous bundles - various sites say to stay away from bundles and just buy the body and a lens.
 
+Black velvet adhesive sheets
+----------------------------
+
+On eBay you can find:
+
+* $8 - 30x20cm - <https://www.ebay.co.uk/itm/183721781687>
+* $10 - 100x45cm - <https://www.ebay.co.uk/itm/184796653721>
+* $2 - 20x14cm - <https://www.ebay.co.uk/itm/224067639684>
+* $4 - 30x20cm - <https://www.ebay.co.uk/itm/224067635839>
+
+The first two are from seller monarchsgarden and the second two from chenting2018. Both are located in China.
+
+chenting2018 has much higher sales than monarchsgarden but unfortunately doesn't seem to do larger sizes.
+
 Miscellaneous
 -------------
 
