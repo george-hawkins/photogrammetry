@@ -10,6 +10,7 @@ See also here:
 * [`nikon-firmware-upgrade.md`](nikon-firmware-upgrade.md)
 * [`pifuhd`](pifuhd)
 * [`turntable-request-for-quote.md`](turntable-request-for-quote.md)
+* [`scanning-sprays.md`](scanning-sprays.md)
 
 Videos
 ------
