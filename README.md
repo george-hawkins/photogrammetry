@@ -235,6 +235,13 @@ The first two are from seller monarchsgarden and the second two from chenting201
 
 chenting2018 has much higher sales than monarchsgarden but unfortunately doesn't seem to do larger sizes.
 
+Photogrammetry scale
+--------------------
+
+This looks like an interesting contrast to the void approach of Erik Christensen's void - sitting your target on a pattern designed to help the photogrammetry software.
+
+The scale developed by Samantha Thi Porter (a digital archeologist) is mentioned in a few places, including the Meshroom docs, and can be found [here](http://www.stporter.com/resources/) (see the "Updated Scale for Small-Object Photogrammetry" section).
+
 Miscellaneous
 -------------
 
