@@ -3,7 +3,7 @@
 
 This [page](https://artecgroup.zendesk.com/hc/en-us/articles/205338441-Scanning-sprays) from Arctec3D has a nice breakdown scanning sprays, i.e. sprays that cover an otherwise reflective or transparent surface, in a thin chalk-like layer to make them more amenable to 3D scanning. It also covers various cheaper alternatives that are specifically designed for 3D scanning. Erik Christensen's video (linked to below) also covers various options.
 
-TLDR; $40 for a can of Aesub Blue doesn't sound excessive. Of the much cheaper alternatives, I'd first try dry shampoo spray or applying talc (as described in Erik's video). Chalk sprays sounds like an interesting option if you're not concerned about affecting the sprayed surface.
+TLDR; $40 for a can of Aesub Blue doesn't sound excessive. Of the much cheaper alternatives, I'd first try dry shampoo spray or applying talc (as described in Erik's video). Chalk sprays sounds like an interesting option if you're not concerned about potentially affecting the sprayed surface.
 
 3D scanning spray, as shown in promotional videos, has the advantage of no cleaning and that you can apply stickers (as additional feature markers) to the surface after spraying. I doubt stickers would adhere well to dry shampoo or chalk spray but I don't know.
 
