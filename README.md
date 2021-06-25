@@ -123,8 +123,14 @@ Turntables for photogrammetry
 * Fr. 13 - [Ikea 39cm Lazy Susan](https://www.ikea.com/ch/en/p/snudda-lazy-susan-solid-wood-90074483/).
 * $26 - [25cm electric turntable](https://www.aliexpress.com/item/32996372258.html).
 * $20 - [20cm electric turntable](https://www.aliexpress.com/item/1005001896028502.html).
-* $14 - [14cm electric turntable](https://www.aliexpress.com/item/4000338632699.html).
+* $14 - [138mm electric turntable](https://www.aliexpress.com/item/4000338632699.html).
 * $19 to $22 - [138mm to 146mm electric turntables](https://www.aliexpress.com/item/1005001923447660.html) (with battery and non-battery options).
+
+The most popular turntables on AliExpress have a 138mm base but obviously, you can put a larger disc on top (at some cost to stability).
+
+For controlling the 5V input for such turntables with an MCU dev board, it looks like a [MOSFET](https://www.adafruit.com/product/355) is the thing to use. It took  a lot of googling to convince myself of this - there were surpringly few convincing sources. The best I found was this Adafruit [tutorial](https://learn.adafruit.com/use-dc-stepper-servo-motor-solenoid-rp2040-pico/solenoids) on controlling a 5V 1.1A solenoid. The Fritzing diagram shows that it's a very simple setup. For a turntable though, I suspect the capacitor and diode aren't needed (as all that will be taken care of within the electronics of the turntable). As usually, other sources also commonly feature a "magic" capacitor for filtering out power supply spikes - with values between 10uF to 47uF (as in the Adafruit tutorial).
+
+Note: the voltage dropped by such MOSFETs is determined by their Rds(on) value, i.e. the size of resistor they behave as at a given voltage - for the Adafruit IRLB8721 that appears to be in the order of milliohms at 5V, i.e. minimal. 
 
 Laser cut aluminum
 ------------------
