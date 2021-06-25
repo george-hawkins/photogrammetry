@@ -11,6 +11,7 @@ See also here:
 * [`pifuhd`](pifuhd)
 * [`turntable-request-for-quote.md`](turntable-request-for-quote.md)
 * [`scanning-sprays.md`](scanning-sprays.md)
+* [`photogrammetry-course-notes.md`](photogrammetry-course-notes.md)
 
 Videos
 ------
