@@ -118,9 +118,11 @@ Turntables for photogrammetry
 -----------------------------
 
 * Fr. 20 - [Hama 25cm turntable](https://www.galaxus.ch/en/s14/product/hama-turntable-255-x-2-cm-tv-furniture-9811823) (also available in 32cm and 40cm variants).
-* Fr. 13 - [Ikean 39cm Lazy Susan](https://www.ikea.com/ch/en/p/snudda-lazy-susan-solid-wood-90074483/).
+* Fr. 13 - [Ikea 39cm Lazy Susan](https://www.ikea.com/ch/en/p/snudda-lazy-susan-solid-wood-90074483/).
 * $26 - [25cm electric turntable](https://www.aliexpress.com/item/32996372258.html).
-* $14 - [14cm electric turntable](https://www.aliexpress.com/item/4001352037979.html).
+* $20 - [20cm electric turntable](https://www.aliexpress.com/item/1005001896028502.html).
+* $14 - [14cm electric turntable](https://www.aliexpress.com/item/4000338632699.html).
+* $19 to $22 - [138mm to 146mm electric turntables](https://www.aliexpress.com/item/1005001923447660.html) (with battery and non-battery options).
 
 Laser cut aluminum
 ------------------
