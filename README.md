@@ -21,11 +21,11 @@ Videos
 
 Erik Christensen rotates his subject on an amazingly expensive [Syrp Genie Mini II panning motion control system](https://www.bhphotovideo.com/c/product/1483069-REG/syrp_sy0033_0001_genie_mini_ii_panning.html). You can get much cheaper devices like the [Movo Photo MTP-11](https://www.bhphotovideo.com/c/product/1624190-REG/movo_photo_mtp_11_motorized_panoramic_time.html) but why not just use an electric turntable from AliExpress (see section below).
 
-Erik Christensen doesn't discuss how he made the polarizing film mount he uses so, Exitaph created one himself and released the 3D model and details [here](https://cults3d.com/en/3d-model/gadget/flashpoint-rf-400-godox-ar400-90-degree-magnetic-polarizing-film-mount).
+Erik Christensen doesn't discuss how he made the polarizing film mount he uses so, Exitaph created one himself and released the 3D model and details [here](https://cults3d.com/en/3d-model/gadget/flashpoint-rf-400-godox-ar400-90-degree-magnetic-polarizing-film-mount). Viz Guru (see next paragraphs) also makes a similar 3D model available [here](https://www.patreon.com/posts/ar400-filter-for-45493702).
 
 For an amazing automated scanning-in-the-void system in action see [here](https://www.youtube.com/watch?v=dyPn5lmq9B4&t=329s) (link starts 5m 29s in to the video - the first 5 minutes show building the system).
 
-The guy who made this system also has a [5 part series](https://www.youtube.com/watch?v=010lAKpr7JE) on photogrammetry where he answers all the questions others barely mention, e.g. how mnay photos do you _really_ need, what kind of lens do you need. He compares all different kinds of equipment so at the end you have a much clearer idea of what impacts you results and what price point you want to go for.
+The guy (Viz Guru) who made this system also has a [5 part series](https://www.youtube.com/watch?v=010lAKpr7JE) on photogrammetry where he answers all the questions others barely mention, e.g. how mnay photos do you _really_ need, what kind of lens do you need. He compares all different kinds of equipment so at the end you have a much clearer idea of what impacts you results and what price point you want to go for.
 
 There are many similar builds including this [one](https://www.youtube.com/watch?v=Fj7wGGXPM0A) that he's since scaled down into something far smaller that's open source and available as a kit [here](https://en.openscan.eu/shop).
 
