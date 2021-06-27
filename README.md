@@ -60,6 +60,8 @@ The polarizer filter for the camera is actually in a similar price range - start
 
 Here's the [range](https://www.bhphotovideo.com/c/products/Polarizer/ci/115/N/4026728357?sort=PRICE_LOW_TO_HIGH&filters=fct_polarizing-type_35%3Acircular) sold by B+H - they have Tiffen and Hoya (and some odd reason seem to sell some Tiffen lenses under the brand _General Brand_).
 
+My inclination is towards the [Tiffen Digital HT filter](https://www.bhphotovideo.com/c/product/533172-REG/Tiffen_52HTCP_52mm_Digital_HT_High.html). At $30 it's not the cheapest (Tiffen also has a cheaper one at $18), however it's cheap when you see many statements that a good filter should cost around $200. Tiffen doesn't seem to be the best regarded brand but this particular filter is recommended in various places, e.g. [here](https://www.latimes.com/bestcovery/best-polarizer-filter#also-consider-tiffen-77mm-circular-polarizer-filter) as a reasonable entry level filter. I've seen various sources photogrammetry tutorial specifically warning against choosing the cheapest possible such filters due to the artifacts they cause in the resulting models and textures.
+
 Shutter release (and GPS)
 -------------------------
 
