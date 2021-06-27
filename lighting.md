@@ -13,6 +13,8 @@ There appear to be a number of typical issues with the designs on YouTube:
 
 Most videos have someone in the comments pointing up the shortcomings. I've included the best comments below.
 
+Note: Adafruit have a [tutorial](https://learn.adafruit.com/bedazzler?view=all) where they produce an extremely bright LED light source - the electronics in this are probably more credible than those of most YouTube videos.
+
 A more realistic option is using an LED strip or a number of bright LED bulbs - see down below for more on these options.
 
 DIY 10 x 20W LED right lights

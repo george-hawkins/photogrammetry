@@ -10,6 +10,8 @@ See also here:
 * [`nikon-firmware-upgrade.md`](nikon-firmware-upgrade.md)
 * [`pifuhd`](pifuhd)
 * [`turntable-request-for-quote.md`](turntable-request-for-quote.md)
+* [`scanning-sprays.md`](scanning-sprays.md)
+* [`photogrammetry-course-notes.md`](photogrammetry-course-notes.md)
 * [`base-pattern`](base-pattern)
 * [`projects`](projects)
 
@@ -22,11 +24,13 @@ Videos
 
 Erik Christensen rotates his subject on an amazingly expensive [Syrp Genie Mini II panning motion control system](https://www.bhphotovideo.com/c/product/1483069-REG/syrp_sy0033_0001_genie_mini_ii_panning.html). You can get much cheaper devices like the [Movo Photo MTP-11](https://www.bhphotovideo.com/c/product/1624190-REG/movo_photo_mtp_11_motorized_panoramic_time.html) but why not just use an electric turntable from AliExpress (see section below).
 
-Erik Christensen doesn't discuss how he made the polarizing film mount he uses so, Exitaph created one himself and released the 3D model and details [here](https://cults3d.com/en/3d-model/gadget/flashpoint-rf-400-godox-ar400-90-degree-magnetic-polarizing-film-mount).
+Erik Christensen doesn't discuss how he made the polarizing film mount he uses so, Exitaph created one himself and released the 3D model and details [here](https://cults3d.com/en/3d-model/gadget/flashpoint-rf-400-godox-ar400-90-degree-magnetic-polarizing-film-mount). Viz Guru (see next paragraphs) also makes a similar 3D model available [here](https://www.patreon.com/posts/ar400-filter-for-45493702).
 
 For an amazing automated scanning-in-the-void system in action see [here](https://www.youtube.com/watch?v=dyPn5lmq9B4&t=329s) (link starts 5m 29s in to the video - the first 5 minutes show building the system).
 
-The guy who made this system also has a [5 part series](https://www.youtube.com/watch?v=010lAKpr7JE) on photogrammetry where he answers all the questions others barely mention, e.g. how mnay photos do you _really_ need, what kind of lens do you need. He compares all different kinds of equipment so at the end you have a much clearer idea of what impacts you results and what price point you want to go for.
+The guy (Viz Guru) who made this system also has a [5 part series](https://www.youtube.com/watch?v=010lAKpr7JE) on photogrammetry where he answers all the questions others barely mention, e.g. how mnay photos do you _really_ need, what kind of lens do you need. He compares all different kinds of equipment so at the end you have a much clearer idea of what impacts you results and what price point you want to go for.
+
+Note: [part 2](https://www.patreon.com/posts/photogrammetry-2-37039151) and the subsequent parts are available on Patreon rather than YouTube. You need to subscribe at the $3 per month tier to access this content. Partreon have a very fair cancelation process - i.e. _if you want_, you can pay for one month up front and then cancel immediatelly and you have access for that month with no auto-renewal (but renewals occurs at the start of calendar months - so if you subscribe on e.g. June 24th, you'll only get 7 days access until renewal). He also says he'll make the videos available on Gumroad but they aren't available under [his account](https://gumroad.com/vizguru) there at the moment.
 
 There are many similar builds including this [one](https://www.youtube.com/watch?v=Fj7wGGXPM0A) that he's since scaled down into something far smaller that's open source and available as a kit [here](https://en.openscan.eu/shop).
 
@@ -119,9 +123,17 @@ Turntables for photogrammetry
 -----------------------------
 
 * Fr. 20 - [Hama 25cm turntable](https://www.galaxus.ch/en/s14/product/hama-turntable-255-x-2-cm-tv-furniture-9811823) (also available in 32cm and 40cm variants).
-* Fr. 13 - [Ikean 39cm Lazy Susan](https://www.ikea.com/ch/en/p/snudda-lazy-susan-solid-wood-90074483/).
+* Fr. 13 - [Ikea 39cm Lazy Susan](https://www.ikea.com/ch/en/p/snudda-lazy-susan-solid-wood-90074483/).
 * $26 - [25cm electric turntable](https://www.aliexpress.com/item/32996372258.html).
-* $14 - [14cm electric turntable](https://www.aliexpress.com/item/4001352037979.html).
+* $20 - [20cm electric turntable](https://www.aliexpress.com/item/1005001896028502.html).
+* $14 - [138mm electric turntable](https://www.aliexpress.com/item/4000338632699.html).
+* $19 to $22 - [138mm to 146mm electric turntables](https://www.aliexpress.com/item/1005001923447660.html) (with battery and non-battery options).
+
+The most popular turntables on AliExpress have a 138mm base but obviously, you can put a larger disc on top (at some cost to stability).
+
+For controlling the 5V input for such turntables with an MCU dev board, it looks like a [MOSFET](https://www.adafruit.com/product/355) is the thing to use. It took  a lot of googling to convince myself of this - there were surpringly few convincing sources. The best I found was this Adafruit [tutorial](https://learn.adafruit.com/use-dc-stepper-servo-motor-solenoid-rp2040-pico/solenoids) on controlling a 5V 1.1A solenoid. The Fritzing diagram shows that it's a very simple setup. For a turntable though, I suspect the capacitor and diode aren't needed (as all that will be taken care of within the electronics of the turntable). As usually, other sources also commonly feature a "magic" capacitor for filtering out power supply spikes - with values between 10uF to 47uF (as in the Adafruit tutorial).
+
+Note: the voltage dropped by such MOSFETs is determined by their Rds(on) value, i.e. the size of resistor they behave as at a given voltage - for the Adafruit IRLB8721 that appears to be in the order of milliohms at 5V, i.e. minimal. 
 
 Laser cut aluminum
 ------------------
@@ -235,6 +247,13 @@ On eBay you can find:
 The first two are from seller monarchsgarden and the second two from chenting2018. Both are located in China.
 
 chenting2018 has much higher sales than monarchsgarden but unfortunately doesn't seem to do larger sizes.
+
+Photogrammetry scale
+--------------------
+
+This looks like an interesting contrast to the void approach of Erik Christensen's void - sitting your target on a pattern designed to help the photogrammetry software.
+
+The scale developed by Samantha Thi Porter (a digital archeologist) is mentioned in a few places, including the Meshroom docs, and can be found [here](http://www.stporter.com/resources/) (see the "Updated Scale for Small-Object Photogrammetry" section).
 
 Miscellaneous
 -------------
