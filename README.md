@@ -10,6 +10,8 @@ See also here:
 * [`nikon-firmware-upgrade.md`](nikon-firmware-upgrade.md)
 * [`pifuhd`](pifuhd)
 * [`turntable-request-for-quote.md`](turntable-request-for-quote.md)
+* [`base-pattern`](base-pattern)
+* [`projects`](projects)
 
 Videos
 ------
