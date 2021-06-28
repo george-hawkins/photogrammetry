@@ -42,6 +42,8 @@ Ring flash/light
 * $500 - [Witstro AR400](https://www.bhphotovideo.com/c/product/1341907-REG/godox_ar400_witstro_ring_flash.html).
 * $70 - [Bolt VM-160](https://www.bhphotovideo.com/c/product/750878-REG/bolt_vm_160_led_macro_ring.html).
 
+Note: B&H sometimes have the Bolt VM-160 on offer - I got one from them for $40.
+
 For more on lighting - building your own ring light with 10W LEDs or, more realistically, lighting with an LED strip or bright LED bults - see [`lighting.md`](lighting.md).
 
 Polarizing film and polarizer filters
@@ -61,6 +63,15 @@ The polarizer filter for the camera is actually in a similar price range - start
 Here's the [range](https://www.bhphotovideo.com/c/products/Polarizer/ci/115/N/4026728357?sort=PRICE_LOW_TO_HIGH&filters=fct_polarizing-type_35%3Acircular) sold by B+H - they have Tiffen and Hoya (and some odd reason seem to sell some Tiffen lenses under the brand _General Brand_).
 
 My inclination is towards the [Tiffen Digital HT filter](https://www.bhphotovideo.com/c/product/533172-REG/Tiffen_52HTCP_52mm_Digital_HT_High.html). At $30 it's not the cheapest (Tiffen also has a cheaper one at $18), however it's cheap when you see many statements that a good filter should cost around $200. Tiffen doesn't seem to be the best regarded brand but this particular filter is recommended in various places, e.g. [here](https://www.latimes.com/bestcovery/best-polarizer-filter#also-consider-tiffen-77mm-circular-polarizer-filter) as a reasonable entry level filter. I've seen various sources photogrammetry tutorial specifically warning against choosing the cheapest possible such filters due to the artifacts they cause in the resulting models and textures.
+
+B&H online photography store
+----------------------------
+
+Some of the links on these pages are to [B&H](https://www.bhphotovideo.com/), a US based online photography store that will ship anywhere in the world for fairly reasonable rates.
+
+I don't know enough about B&H to specifically recommend them but they do seem to be the dominant online store for this kind of equipment.
+
+Note: on checkout they offer the option to take care of import duties etc. for you but don't have this option selected by default. For somewhere like Switzerland (where I'm based), B&H's price for taking care of this up-front are clearly better than the costs (in particular when including the on-top "service" fee) incurred when letting the package delivery company (i.e. FedEx, DHL, UPS or whoever) handle things.
 
 Shutter release (and GPS)
 -------------------------
