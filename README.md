@@ -36,6 +36,15 @@ There are many similar builds including this [one](https://www.youtube.com/watch
 
 Ben Kreimer has a nice [page](http://www.immersiveshooter.com/2020/05/11/photogrammetry-photography-guide-ring-flash-photography/) on choosing a ring flash for photogrammetry - as with everyone else he goes with the Witstro AR400. He specifically doesn't recommend the much cheaper ring _lights_ available from many sources. He mentions that "I consistently shoot at 200 ISO, f/16, 1/200th of a second".
 
+Remeshing
+---------
+
+Peter France has a follow-up video to his photogrammetry video (linked to above) on cleaning up the meshes produced by programs like Meshroom. He uses a tool called Instant Meshes for this. But this seems to be rather old-hat at this stage and Blender can do a better job with it's own [retopology tools](https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html), in particular _Quad_ remesh.
+
+Irrespective of the remesher - Peter then goes into baking your old texture onto your new low-poly mode.
+
+For more on _Quad_ remesh, see this [YouTube video](https://www.youtube.com/watch?v=Rrs5zWwkwpE) from Arrimus 3D. Another tool, that's mentioned in a number of places (like [here](https://blender-addons.org/open-source-auto-remesher/)) is [Auto Mesher](https://github.com/huxingyi/autoremesher) from Jeremey Hu which may (or may not) result in even better meshes.
+
 Ring flash/light
 ----------------
 
