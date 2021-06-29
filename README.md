@@ -336,6 +336,8 @@ TODO: investigate using [gPhoto2](http://www.gphoto.org/) for triggering and tra
 
 Note: you can find dire warnings, from various sources, that say you must not unplug the USB cable while the camera is still on, claiming that you will damage the camera if you do so. The Nikon D3100 manual simply says "Do not turn the camera off or disconnect the USB cable while transfer is in progress" - if there was a real issue with potentially damaging the camera, I think they'd have flagged this up rather more obviously. But I'm not about to experiment to prove things one way or another.
 
+Note: Nikon have USB to WiFi adapters for some of their cameras that don't have built-in WiFi - see [here](https://www.nikonimgsupport.com/eu/BV_article?articleNo=000006469&lang=en_GB). These should be more capable than solutions like Eye-Fi (given that more power is available via USB and that the devices have more space for an antenna and electronics). The WU-1a is no longer available and the WU-1b is (like all Nikon accessories) incredibly expensive.
+
 Miscellaneous
 -------------
 
