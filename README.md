@@ -304,7 +304,9 @@ I'd have liked the idea of connecting a Raspberry Pi such that it appeared as US
 
 It's certainly possible to get a Pi to do this (for those models that support OTG) but, as noted above, the issue is then getting an adapter to make such a device appear as an SD card to the camera.
 
-The only currently available SD card based approach is ardyesp's SD card to ESP8266 adapter (intended for push 3D printer files via and ESP8266 to an SD card that's plugged into 3D printer).
+The only currently available SD card based approach is ardyesp's SD card to ESP8266 adapter [project](https://github.com/ardyesp/ESPWebDAV) (intended for push 3D printer files via and ESP8266 to an SD card that's plugged into 3D printer).
+
+Note: FYSETC have forked this project [here](https://github.com/FYSETC/ESPWebDAV/commits/fysetc) and have a ready-to-go hardware implementation [here](https://www.aliexpress.com/item/4001095471107.html).
 
 This isn't quite as interesting as it initially looks - the ESP8266 is in no way emulating an SD card, it's simply a setup whereby the camera and the ESP8266 can access the same SD card (a dummy SD card is plugged into the SD printer and is wired through to a real SD card which the ESP8266 can also access).
 
