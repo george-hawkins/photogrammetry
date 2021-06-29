@@ -328,7 +328,7 @@ However, pretending to be an SD card involves supporting the transfer mode that 
 
 But perhaps the SD card is a ludicrous dead-end driven by my awareness of the Eye-Fi.
 
-The alternative is the camera's USB port. When plugged in, my Nikon D3100 appears as a USB drive but for whatever reason the folder containing the photos appears to be actively hidden and not accessible - I've seen lots of people asking about this but haven't investigated seriously.
+The alternative is the camera's USB port. When plugged in, my Nikon D3100 does not appear at all, e.g. as USB drive or whatever. It appears you have to talk with such cameras using [PTP](https://en.wikipedia.org/wiki/Picture_Transfer_Protocol).
 
 TODO: investigate using [gPhoto2](http://www.gphoto.org/) for triggering and transferring photos via USB.
 
