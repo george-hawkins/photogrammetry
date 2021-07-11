@@ -36,6 +36,15 @@ There are many similar builds including this [one](https://www.youtube.com/watch
 
 Ben Kreimer has a nice [page](http://www.immersiveshooter.com/2020/05/11/photogrammetry-photography-guide-ring-flash-photography/) on choosing a ring flash for photogrammetry - as with everyone else he goes with the Witstro AR400. He specifically doesn't recommend the much cheaper ring _lights_ available from many sources. He mentions that "I consistently shoot at 200 ISO, f/16, 1/200th of a second".
 
+Remeshing
+---------
+
+Peter France has a follow-up video to his photogrammetry video (linked to above) on cleaning up the meshes produced by programs like Meshroom. He uses a tool called Instant Meshes for this. But this seems to be rather old-hat at this stage and Blender can do a better job with it's own [retopology tools](https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html), in particular _Quad_ remesh.
+
+Irrespective of the remesher - Peter then goes into baking your old texture onto your new low-poly mode.
+
+For more on _Quad_ remesh, see this [YouTube video](https://www.youtube.com/watch?v=Rrs5zWwkwpE) from Arrimus 3D. Another tool, that's mentioned in a number of places (like [here](https://blender-addons.org/open-source-auto-remesher/)) is [Auto Mesher](https://github.com/huxingyi/autoremesher) from Jeremey Hu which may (or may not) result in even better meshes.
+
 Ring flash/light
 ----------------
 
@@ -267,6 +276,67 @@ Photogrammetry scale
 This looks like an interesting contrast to the void approach of Erik Christensen's void - sitting your target on a pattern designed to help the photogrammetry software.
 
 The scale developed by Samantha Thi Porter (a digital archeologist) is mentioned in a few places, including the Meshroom docs, and can be found [here](http://www.stporter.com/resources/) (see the "Updated Scale for Small-Object Photogrammetry" section).
+
+Transfering photos as you shoot
+-------------------------------
+
+A nice option would be to able to transfer photos to Meshroom as you shoot (rather than shooting, popping out the SD card and transfering) - Meshroom supports this pattern, it can watch a directory and incorporate new photos as they appear.
+
+However, unless your camera comes with built-in WiFi (e.g. the Nikon 5300) this doesn't look like a great option.
+
+**Update:** the above comment only applies if you're looking to get a connection working via WiFi or via the SD card - see the USB connector section below.
+
+There've been various SD card to Wi-Fi adapters - the best known being the the [Eye-Fi](https://en.wikipedia.org/wiki/Eye-Fi) but these kind of cards are no longer easily available (as modern cameras generally come with built-in Wi-Fi or Bluetooth).
+
+Even when available, such cards were never really of interest if you were shooting in RAW - the Wi-Fi built-in to the SD card was very slow at transferring even JPEGs, let alone huge RAW files.
+
+There are no end of SD card to USB adapters, i.e. the devices you use on your computer to interact with an SD card via a USB port. So you might thing there'd be the oppostie, i.e. a dummy SD card that plugs into your camera and has an extension cable (unfortunately, making it impossible to close any door over the SD card) that terminates in a USB port that allows you to e.g. plug in a USB drive.
+
+A company called Elan Systems did produces something along these lines (that only supported micro SD cards) - you can find their very dated looking product video [here](https://www.youtube.com/watch?v=RFjILceH8do). However, this product is no longer available.
+
+Various Chinese companies produced similar things at different times - none of which are still available and it's not even clear if any of them _really_ worked.
+
+One big issue is the voltage - the host system supplied the SD card with 3.3V whereas as USB expects 5V - you can of course boost the voltage but you end up with very little current to power the needed electronics.
+
+I did look for devices that worked with the help of external power sources - but didn't find anything.
+
+I'd have liked the idea of connecting a Raspberry Pi such that it appeared as USB OTG mass storage device to the camera and made the files stored to it available via a file share.
+
+It's certainly possible to get a Pi to do this (for those models that support OTG) but, as noted above, the issue is then getting an adapter to make such a device appear as an SD card to the camera.
+
+The only currently available SD card based approach is ardyesp's SD card to ESP8266 adapter [project](https://github.com/ardyesp/ESPWebDAV) (intended for push 3D printer files via and ESP8266 to an SD card that's plugged into 3D printer).
+
+Note: FYSETC have forked this project [here](https://github.com/FYSETC/ESPWebDAV/commits/fysetc) and have a ready-to-go hardware implementation [here](https://www.aliexpress.com/item/4001095471107.html).
+
+This isn't quite as interesting as it initially looks - the ESP8266 is in no way emulating an SD card, it's simply a setup whereby the camera and the ESP8266 can access the same SD card (a dummy SD card is plugged into the SD printer and is wired through to a real SD card which the ESP8266 can also access).
+
+While this works, it's incredibly slow - neither the ESP8266 nor its 32-bit brothers are designed for high-speed data transfer.
+
+I did look at other options, e.g. just keeping the card part of an extension cable like this:
+
+![SD card extension cable](https://ae01.alicdn.com/kf/HTB1IMWzazvuK1Rjy0Faq6x2aVXag/10-48CM-SD-to-SD-Card-Extension-Cable-Card-Read-Adapter-Flexible-Extender-Micro-SD-SDHC.jpg)
+
+Available [here](https://www.aliexpress.com/item/1005001281351071.html) on AliExpress.
+
+I thought it might be possible to wire this through to the GPIO pins of a Raspberry Pi or a dedicated MCU board like a high-power [Teensy 4.1](https://www.pjrc.com/store/teensy41.html).
+
+Lots of people have thought about and asked about this - but no one seems to have gotten it working. SD cards support multiple [transfer modes](https://en.wikipedia.org/wiki/SD_card#Transfer_modes) and many devices (even Arduinos) can handle interacting with an SD card using the basic SPI transfer mode.
+
+However, pretending to be an SD card involves supporting the transfer mode that your camera or whatever wants to use. Properly pretending to be a SD card would mean supporting the extremely fast transfer speeds that such cards support (and which cameras, particularly those supporting RAW, demand).
+
+**TLDR;** WiFi solutions are too slow and wiring a dummy SD card straight through to a device that pretends to be an SD card doesn't seem to be easily achieveable.
+
+### USB connector
+
+But perhaps the SD card is a ludicrous dead-end driven by my awareness of the Eye-Fi.
+
+The alternative is the camera's USB port. When plugged in, my Nikon D3100 does not appear at all, e.g. as USB drive or whatever. It appears you have to talk with such cameras using [PTP](https://en.wikipedia.org/wiki/Picture_Transfer_Protocol).
+
+TODO: investigate using [gPhoto2](http://www.gphoto.org/) for triggering and transferring photos via USB.
+
+Note: you can find dire warnings, from various sources, that say you must not unplug the USB cable while the camera is still on, claiming that you will damage the camera if you do so. The Nikon D3100 manual simply says "Do not turn the camera off or disconnect the USB cable while transfer is in progress" - if there was a real issue with potentially damaging the camera, I think they'd have flagged this up rather more obviously. But I'm not about to experiment to prove things one way or another.
+
+Note: Nikon have USB to WiFi adapters for some of their cameras that don't have built-in WiFi - see [here](https://www.nikonimgsupport.com/eu/BV_article?articleNo=000006469&lang=en_GB). These should be more capable than solutions like Eye-Fi (given that more power is available via USB and that the devices have more space for an antenna and electronics). The WU-1a is no longer available and the WU-1b is (like all Nikon accessories) incredibly expensive.
 
 Miscellaneous
 -------------
