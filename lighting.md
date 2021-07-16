@@ -169,6 +169,47 @@ The strips in these guides aren't quite the same as the basic 12V non-addressabl
 
 Note: Blinkinlabs produce solder kits for providing a more stable and easier to solder connection - but these kits are only for addressable strips (dotstar or neopixels). 
 
+3W LEDs
+-------
+
+Sales in brackets, Q marks products clearly labelled as QingYing but even products like the OTDiode power supply that aren't labelled QingYing are clearly the same make.
+
+OTDiode (online since 2015):
+
+* Lenses (1527) - $3.20 for 50 - https://www.aliexpress.com/item/32960072994.html
+* LEDs (277) - $2.11 for 10 - 700mA - https://www.aliexpress.com/item/1005002310393752.html
+  * $8.50 for 50 pcs - https://www.aliexpress.com/item/1005002401317246.html
+* Power (132) - $7.40 - 600mA - https://www.aliexpress.com/item/32966409905.html
+
+NewStarRiver (online since 2013):
+
+* Lenses (602) - Q - $3.27 for 50 - https://www.aliexpress.com/item/32904234215.html
+* LEDs (525) - Q - $2.28 for 10 - 700mA - https://www.aliexpress.com/item/32920995746.html
+  * $7.74 for 25 (so more expensive that 3 x 10) - https://www.aliexpress.com/item/32821129352.html
+* Power (464) - Q - $7.39 - 600mA - https://www.aliexpress.com/item/32911662203.html
+* Thermal tape (28) - Q - $9.77 - 20mm x 25m - https://www.aliexpress.com/item/32900726617.html
+
+Nice-Lighting (online since 2014):
+
+* Lenses (244) - Q - $3.15 for 50 - https://www.aliexpress.com/item/32904718238.html
+* LEDs (104) - Q - $1.66 for 5 - 700mA - https://www.aliexpress.com/item/32918562594.html
+  * $8 for 50 - https://www.aliexpress.com/item/1005002382512681.html
+* Power (240) - Q - $9.79 - 600mA - https://www.aliexpress.com/item/32922801946.html
+* Thermal tape (4) - Q - $9.77 - 20mm x 25m - https://www.aliexpress.com/item/1005001463926398.html
+
+Grace (online since 2011):
+
+* Lenses (223) - $3.20 for 50 - https://www.aliexpress.com/item/4000569557875.html
+* LEDs (497) - $1.88 for 10 - 700mA - https://www.aliexpress.com/item/32708828694.html
+  * $7.48 for 50 - https://www.aliexpress.com/item/32867905506.html
+* Power (27) - Q - https://www.aliexpress.com/item/32863926104.html
+
+LC (online since 2014) - seem to driver oriented - possible real manufacturer:
+
+* Power (211) - $9.49 - 700mA - https://www.aliexpress.com/item/32930744969.html
+
+Note: all of the power-supplies, except the one from LC, take between 18 and 30 LEDs. The LC doesn't state a range, in no. of LEDs, but using the value of at most 3.5V per LEDs that QingYing seem to use across its range, gives a range of 12 to 22 LEDs.
+
 Bright cold white bulbs
 -----------------------
 
