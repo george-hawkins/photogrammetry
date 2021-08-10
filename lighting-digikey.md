@@ -16,6 +16,14 @@ Mouser have 6200K ones with a lower CRI of 70 available singly:
 
 * <https://www.mouser.ch/ProductDetail/Cree-LED/XPLAWT-00-0000-000BV6051?qs=aO0xTv36ms5id5thv1y3rA%3D%3D>
 
+The LEDiL lenses are also compatible with these 1050mA / 5700K / 82CRI LEDs from Osram:
+
+* <https://www.mouser.ch/ProductDetail/OSRAM-Opto-Semiconductors/GW-PUSTA1EM-NBND-XX52-1?qs=vLWxofP3U2xQhxsir0WbwA%3D%3D>
+
+These have to be ordered in reels of 600.
+
+Only the lower wattage variants of these are available from Digikey.
+
 Lenses - LEDiL - TINA-SC-M
 
 * <https://www.digikey.ch/product-detail/en/ledil/CP17595-TINA-SC-M/711-CP17595-TINA-SC-M-ND/14123663>
