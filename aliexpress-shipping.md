@@ -28,3 +28,7 @@ Most things came wrapped in one or two layers of bubble wrap - for many things t
 25m is way more tape than you're ever likely to use - you can buy more reasonable 5m quantities from [nicelux](https://www.aliexpress.com/item/32812832395.html).
 
 Another manufacturer of LED drivers is [Lcfocus](https://lcfocus.aliexpress.com/store/group/LED-Driver/2335145_510573665.html) (their maximum voltage 600mA driver is [96V](https://www.aliexpress.com/item/32913618520.html) and looks almost identical to QingYing models).
+
+---
+
+Note: the photos for LED related products include the QingYing brand. This brand belongs to New Star River (see [here](https://trademarks.justia.com/874/89/qingying-87489941.html)), i.e. one of the sellers listed above. The Q of QingYing even appears in the model names of their LED drivers, so it's possible they're also the manufacturer of what's being sold but who knows.
