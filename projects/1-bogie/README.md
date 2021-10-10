@@ -29,12 +29,30 @@ Under _Viewport Overlays_ select _Statistics_ (so you can see how many faces etc
 
 The statistics also show how many vertices, edges and faces are currently selected - this is useful, e.g. below when selecting loose faces as you can see if anything has actually been selected (if it's not obvious visually).
 
+Cleaning up the mesh
+--------------------
+
 Select a face of the main body and then select linked and again invert and delete vertices (to remove all free floating entities).
 
 Switch to edge select and under select similar, select _Loose Geometry_ and delete egdes - this will remove weird little edges that are sticking out from the object. Switch to face select and again select _Loose Geometry_ and this time delete faces to do the same for faces.
 
-Cleaning up the mesh
---------------------
+---
+
+**Update:** alternatively, just go to _Mesh / Clean Up / Delete Loose_.
+
+_Delete Loose_ is the only one that won't require a rebake.
+
+Select _Mesh / Clean Up / Degenerate Dissolve_ to get rid of completely redundant faces and edges (all other cleanups require some degree choice/compromise).
+
+_Mesh / Clean Up / Merge by Distance_ oddly introduces additional holes.
+
+_Limited Disolve_ (with its 5&deg; default) seriously reduces the number of faces.
+
+_Decimate Geometry_ has no additional affect if you've already done _Limited Disolve_.
+
+_Fill Holes_ with e.g. a value of 64 can be used to patch up holes. I wonder if it'd work better at the end - after simplifying the mesh and making things planar?
+
+---
 
 The _Mesh / Clean Up_ menu items allow you to dramatically reduce the number of faces. See this All3DP [page](https://all3dp.com/2/blender-simplify-mesh-simply-explained/) for a good breakdown of these options. And more - it also discusses using boolean modifier to define a space outside which everything should be removed.
 

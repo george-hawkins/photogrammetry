@@ -4,6 +4,7 @@ The two main options seem to be:
 
 * the 700mA variant from the MeanWell 65W LDH series - handles up to 24 LEDs with 24V input.
 * the 500mA variant from the MeanWell 45W LDH series - handles up to 26 LEDs with 24V input.
+* the 700mA variant from the MeanWell 45W LDH series - handles up to 19 LEDs with 24V input.
 
 * <https://www.digikey.ch/products/en?keywords=LDH-65-700W>
 * <https://www.digikey.ch/product-detail/en/mean-well-usa-inc/LDH-45A-500W/1866-5298-ND/7704778>
@@ -25,7 +26,15 @@ For a Lipo calculator see:
 
 * <https://www.radiocontrolinfo.com/information/rc-calculators/rc-lipo-battery-power-configuration-calculator/>
 
-The 700mA 65W MeanWell LED driver requires 3.1A@24V.
+A 3S battery could do the job too but the efficiency fall-off when powering the maximum number of LEDs is higher:
+
+* <https://www.brack.ch/tattu-rc-akku-lipo-650-mah-11-1-v-75c-967771>
+
+Suitable 3S batteries start at far cheaper prices than suitable 6S batteries.
+
+Note: a 3S battery starts at 12.6V when fully charged and you should stop using it once it hits 11.12V, i.e. 15% capacity.
+
+The 700mA 65W MeanWell LED driver requires 3.1A@24V or 6.2A@12V.
 
 Power supplies
 --------------
