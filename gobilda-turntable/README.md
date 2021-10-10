@@ -117,17 +117,20 @@ Pololu
 * [#2133](https://www.pololu.com/product/2133) - DRV8825 stepper motor driver board (high current).
 * A 12V power supply.
 * A 25V rated electrolytic capacitor with a capacitance of at least 47uF.
-? - there's also a driver that can work off a 5V supply, is there any reason to choose the 12V one?
-  - you also need a 47uF (or 100uF - they seem more common) electrolytic capacitor - the voltage rating of the cap should be about twice you supply voltage.
 * grommets to damp vibration of motor.
 
 Using the DRV8825 with the Pi: https://www.youtube.com/watch?v=LUbhPKBL_IU
 
 47uF is a common capacitance, however, 100uF is slightly more common and just as suitable. The rule-of-thumb seems to be that you should choose a cap with a voltage rating that's twice as high as the voltage being used, e.g. for a 12V setup use a cap rated for 25V.
 
+Examples of suitable capacitors include this [one](https://www.adafruit.com/product/2194) from Adafruit or this [one](https://www.sparkfun.com/products/96) from Sparkfun. I used these [ones](https://www.reichelt.com/de/en/e-cap-radial-100-uf-25-v-105-c-low-esr-fm-a-100u-25-p200027.html) from Reichelt. For advice on choosing capacitors, see [this page](https://www.ladyada.net/wiki/partfinder/caps) from Adafruit.
+
+I bought these [grommets](https://www.tme.eu/ch/en/details/fix-or-4/seals/fix-fasten/) - whether they dampen anything is unclear.
+
 Note: there's also a variant of the driver that can take an input voltage of 5V. However, everyone seems to use the 12V capable variant. Is there any reason for choosing one over the other beyond the voltages involved?
 
 TODO: how much current does the motor draw, i.e. what's the minimum acceptable current rating for the 12V power supply?
+
 
 Tensioners
 ----------
