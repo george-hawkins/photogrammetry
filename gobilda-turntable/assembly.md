@@ -119,6 +119,15 @@ Final assembly
 
 </td></tr></table>
 
+Improvement
+-----------
+
+I later replaced one of the legs with a 5-hole beam with a single foot to reduce the kind of wobble that often occurs when you have four legs (like a table where one leg needs to be propped up with beermats).
+
+![one-foot](build/8-one-foot.jpg)
+
+I used a 10mm bolt for the foot - a 12mm one would have been better but I didn't have one.
+
 Scrapes
 -------
 
