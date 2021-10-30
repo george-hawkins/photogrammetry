@@ -1,6 +1,10 @@
 goBILDA turntable
 =================
 
+![xxx](build/7-final-assembly-b.jpg)
+
+See [`assembly.md`](assembly.md) for a step-by-step walk-through of the build.
+
 Parts
 -----
 
@@ -12,33 +16,19 @@ Parts
 | 1   | D | [3415-0014-0048](https://www.gobilda.com/3415-series-5mm-htd-pitch-hub-mount-timing-belt-pulley-14mm-bore-48-tooth/) | 5mm 48 tooth hub mount timing belt pulley |
 | 1   | B | [2800-0004-0014](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-14mm-length-25-pack/) | 14mm M4 bolt (25 pack).
 | 1   | C | [2801-0004-0008](https://www.gobilda.com/2801-series-zinc-plated-steel-washer-4mm-id-x-8mm-od-25-pack/) | 8/4mm x 1mm washer (25 pack)
-| 1<sup>*</sup> | A  | [3412-0009-0360](https://www.gobilda.com/3412-series-5mm-htd-pitch-timing-belt-9mm-width-360mm-pitch-length-72-tooth/) | 72 tooth belt
-| 1<sup>*</sup> | A  | [3412-0009-0340](https://www.gobilda.com/3412-series-5mm-htd-pitch-timing-belt-9mm-width-340mm-pitch-length-68-tooth/) | 68 tooth belt
 | 1<sup>*</sup> | A  | [3412-0009-0315](https://www.gobilda.com/3412-series-5mm-htd-pitch-timing-belt-9mm-width-315mm-pitch-length-63-tooth/) | 63 tooth belt
 
-A 72 tooth belt is needed, if you go for the goBILDA layout where the pulley centers are 96mm apart. However, I intend to move them one hole closer - this requires a 63 tooth belt. But at this closeness even less of the small pulley's teeth are in contact, so maybe a 68 tooth belt with idlers would be better.
-
-
-### Idlers
-
-| Qty | Item | SKU | Description |
-|-----|------|-----|-------------|
-| 1   | AF | [3413-0001-0001](https://www.gobilda.com/acetal-timing-belt-idler-6mm-id-x-12mm-od-12mm-width-1-1-2-pack/) | 5mm timing belt idler (2 pack)
-| 1   | AG | [1501-0006-0180](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-18mm-length-4-pack/) | 18mm x 6mm M4 standoff (4 pack)
-| 1   | AH | [2800-0004-0020](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | 20mm M4 bolt (25 pack)
-
-An interesting alternative tensioning solution is the [arc-slot tensioner bracket](https://www.gobilda.com/1524-series-arc-slot-tensioner-bracket/).
+<sup>*</sup> A 72 tooth belt is needed, if you go for the goBILDA layout where the pulley centers are 96mm apart. However, I intend to move them one hole closer - this requires a 63 tooth belt. However, bringing them closer means even less of the small pulley's teeth are in contact - see the section below on idlers.
 
 ### Shaft
 
 | Qty | Item | SKU | Description |
 |-----|------|-----|-------------|
-| 2<sup>*</sup> | F | [1309-0016-4008](https://www.gobilda.com/1309-series-sonic-hub-8mm-rex-bore/) | 8mm REX Sonic hub
-| 1<sup>*</sup> | J | [2102-0008-0220](https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-220mm-length/) | 8mm x 220mm REX shaft
-| 1<sup>*</sup> | J | [2102-0008-0090](https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-90mm-length/) | 8mm x 90mm  REX shaft
+| 1 | F | [1309-0016-4008](https://www.gobilda.com/1309-series-sonic-hub-8mm-rex-bore/) | 8mm REX Sonic hub
 | 1 | N | [1310-0016-4008](https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/) | 8mm REX Hyper hub
+| 1 | J | [2102-0008-0090](https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-90mm-length/) | 8mm x 90mm  REX shaft
 
-<sup>*</sup> You can choose a long shaft, to raise the plate above the drive mechanism. Or a short one and avoid the need for a second Sonic hub (instead using the Hyper hub for fixing the upper end of the shaft in place as well as attaching the plate). The longest available length is 220mm (shorter lengths can be found [here](https://www.gobilda.com/stainless-steel-rex-shafting/)). If using just a single Sonic hub and the Hyper hub then the ideal shaft length would be 82mm. The nearest available lengths are 80mm and 90mm, 90mm should be fine as the bottom pulley gives us 9mm of extra room to play with beyond the actual hub.
+With this setup, you have a Sonic hub holding on the large pulley at one end of the shaft and the Hyper hub at the other end to which the rotating plate can be attached. If you want to raise the plate much higher above the body, you could use a 220mm long shaft. See below for parts.
 
 ### Shaft support structure
 
@@ -62,25 +52,14 @@ The 44mm standoff length is chosen to create an upper platform that roughly line
 
 The 7mm bolts go thru the 2.5mm channel and 5mm threads in mount. 7mm bolts are used, rather than 8mm ones, as the bolts mustn't extend beyond the other side of the mount.
 
-### Plate mount
-
-| Qty | Item | SKU | Description |
-|-----|------|-----|-------------|
-| 1   | AJ   | [1116-0056-0056](https://www.gobilda.com/1116-series-grid-plate-7-x-7-hole-56-x-56mm/) | A grid plate
-| 1   | AK   | [1502-0006-0040](https://www.gobilda.com/1502-series-4mm-id-spacer-6mm-od-4mm-length-4-pack/) | 4mm spacers
-| | | | Washers (already covered by C)
-| | | | Locknuts (already covered by AD)
-
-This mount is then attached to the shaft using the Hyper hub (covered above in the shaft section).
-
-An alternative all-in-one (but far smaller) mount would be the [quad block pattern mount](https://www.gobilda.com/1201-series-quad-block-pattern-mount-43-2/).
+**Update:** there's very little clearance possible between the small pulley and the heads of the M4 bolts used for the motor mount. An alternative would be the [low-profile 6mm bolts](https://www.gobilda.com/2804-series-zinc-plated-steel-low-profile-socket-head-screw-m4-x-0-7mm-6mm-length-25-pack/) (there are no 7mm variants of the low-profile bolts).
 
 ### Bottom channel
 
 | Qty | Item | SKU | Description |
 |-----|------|-----|-------------|
 | 1   | I    | [1121-0007-0192](https://www.gobilda.com/1121-series-low-side-u-channel-7-hole-192mm-length/) | 7-hole low-side u-channel
-| 1   | G    | [2800-0004-0010](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 10mm M4 bolt (25 pack).
+| 1   | G    | [2800-0004-0010](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 10mm M4 bolt (25 pack)
 
 The original [5-hole low-side u-channel](https://www.gobilda.com/1121-series-low-side-u-channel-5-hole-144mm-length/) only works if you don't need stablizing legs. A slightly cheaper but less rigid alternative to the u-channel would be an equivalent size [pattern plate](https://www.gobilda.com/pattern-plates/).
 
@@ -88,13 +67,56 @@ The original [5-hole low-side u-channel](https://www.gobilda.com/1121-series-low
 
 | Qty | Item | SKU | Description |
 |-----|------|-----|-------------|
-| 1   | AB   | [1102-0017-0136](https://www.gobilda.com/1102-series-flat-beam-17-hole-136mm-length-2-pack/) | Flat beam (2 pack)
+| 1   | AB   | [1102-0017-0136](https://www.gobilda.com/1102-series-flat-beam-17-hole-136mm-length-2-pack/) | 17-hole flat beam (2 pack)
+| 1   | AL   | [1102-0005-0040](https://www.gobilda.com/1102-series-flat-beam-5-hole-40mm-length-2-pack/) | 5-hole flat beam (2 pack)
 | 1   | AA   | [2919-0001-0001](https://www.gobilda.com/12mm-tall-rubber-foot-1-1-8-pack/) | Rubber feet (8 pack)
 | 1   | AD   | [2812-0004-0007](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/) | M4 locknut (25 pack)
 | 1   | AC   | [1502-0006-0080](https://www.gobilda.com/1502-series-4mm-id-spacer-6mm-od-8mm-length-4-pack/) | 8mm spacers (4 pack)
-|     |      | | 14mm M4 bolts (already covered by B)
-|     |      | | 20mm M4 bolts (already covered by AH)
+| 1   | AH   | [2800-0004-0020](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | 20mm M4 bolt (25 pack)
+| 1   | AM   | [2800-0004-0012](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | 14mm M4 bolts (25 pack)
 |     |      | | Washers (already covered by C)
+
+**Update:** I originally used to 17-hole flat beams with four rubber feet but this resulted in the wobbly table issue sometimes experienced in restaurants (and often resolved by propping up one leg with beer mats). Now, I use a 5-hole beam with a single foot in the middle at the motor end and a 17-hole beam with two feet at the large pulley end.
+
+My calculations say the bolts holding the feet to the beams should be 14mm but in practice this proves to be at least 2mm too long - so 12mm bolts should be used instead (this is more relevant when placing a foot in the middle of the 5-hole beam where the bolt otherwise comes in contact with the main body above the beam).
+
+Optional
+--------
+
+### Plate mount
+
+Depending on how you create the plate, you may be able to screw it down directly onto the Hyper hub. Alternatively, you can create a mount for the plate out a 1x1 pattern plate and then screw down the rotating plate to the holes at the corners of the pattern plate.
+
+| Qty | Item | SKU | Description |
+|-----|------|-----|-------------|
+| 1   | AJ   | [1123-0048-0048](https://www.gobilda.com/1123-series-pattern-plate-1-x-1-hole-48-x-48mm/) | A 1x1 pattern plate
+| 1   | AK   | [1502-0006-0040](https://www.gobilda.com/1502-series-4mm-id-spacer-6mm-od-4mm-length-4-pack/) | 4mm spacers
+| | | | Washers (already covered by C)
+| | | | Locknuts (already covered by AD)
+
+This mount is then attached to the shaft using the Hyper hub (covered above in the shaft section). An alternative all-in-one (but far smaller) mount would be the [quad block pattern mount](https://www.gobilda.com/1201-series-quad-block-pattern-mount-43-2/).
+
+### Idlers
+
+At noted above, bringing the pulleys closer together means that fewer of the small pulley's teeth are in contact with the belt. This _could_ lead to slipping. An alternative would be to use a larger belt and introduce idlers, allowing you to use them to bring more of the belt in contact with the small pulley.
+
+| Qty | Item | SKU | Description |
+|-----|------|-----|-------------|
+| 1 | A  | [3412-0009-0340](https://www.gobilda.com/3412-series-5mm-htd-pitch-timing-belt-9mm-width-340mm-pitch-length-68-tooth/) | 68 tooth belt
+| 1   | AF | [3413-0001-0001](https://www.gobilda.com/acetal-timing-belt-idler-6mm-id-x-12mm-od-12mm-width-1-1-2-pack/) | 5mm timing belt idler (2 pack)
+| 1   | AG | [1501-0006-0180](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-18mm-length-4-pack/) | 18mm x 6mm M4 standoff (4 pack)
+|     |      | | 10mm M4 bolts (already covered by G)
+
+An interesting alternative tensioning solution is the [arc-slot tensioner bracket](https://www.gobilda.com/1524-series-arc-slot-tensioner-bracket/).
+
+### Longer shaft
+
+As noted above, you could go for a longer shaft if you wanted to raise the plate higher above the body. The longest available length is 220mm (shorter lengths can be found [here](https://www.gobilda.com/stainless-steel-rex-shafting/)). With a 90mm shaft the Hyper hub secures the top end of the shaft against the body - with a longer shaft an additional Sonic hub would be required to fill this role.
+
+| Qty | Item | SKU | Description |
+|-----|------|-----|-------------|
+| 1 | F | [1309-0016-4008](https://www.gobilda.com/1309-series-sonic-hub-8mm-rex-bore/) | 8mm REX Sonic hub
+| 1 | J | [2102-0008-0220](https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-220mm-length/) | 8mm x 220mm REX shaft
 
 Notes
 -----
