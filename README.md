@@ -165,11 +165,31 @@ Services that that offer online laser cutting for aluminum:
 * [Ponoko](https://www.ponoko.com/designs)
 * [Oshcut](https://app.oshcut.com/cart)
 * [LaserBoost](https://www.laserboost.com/en/create)
-* [Xometry](https://xometry.eu/en/laser-cutting/) (its web service failed to load, last time I tried).
+* [Xometry](https://xometry.eu/en/laser-cutting/)
+* [Lasergist](https://lasergist.com/)
 
-Sculpteo only offer woods, plastics and cardboard.
+Xometry's webservice doesn't load if you've got ad blocking enabled and their instant quote doesn't work in practise - it always declares at the end that a manual quote is required even for the simplest items (that the other services had no problems with).
 
-TODO: this section is related to [`turntable-request-for-quote.md`](turntable-request-for-quote.md) (laser cutting a turntable disk) **and** to [`lighting.md`](lighting.md) (laser cutting a disk with holes on which to mount and LED strip).
+Oshcut won't ship outside the US and Ponoko's shipping costs for non-US addresses are very high.
+
+Lasergist offered an excellent price for an item that was 172x172mm but the price jumped up massively for an item that was 281x281mm - presumably there's some cut-off between those two sizes at which point Lasergist makes little sense. Lasergist also requires you calculate the total length of the lines you want to cut (which is easy enough to work out when using Adobe Illustrator - see [here](https://lasergist.com/design-guidelines/) - but requires more effort if you're using Inkscape - see my notes [here](ring-light/README.md)).
+
+In the end, I used LaserBoost. Their shipping costs for a single item are high but the relative cost goes down very quickly if you order multiple items.
+
+For my turntable, I wanted aluminum that was 2mm thick - Ponoko and some of the others don't offer this (e.g. Ponoko just offers 1.6mm and 3.2mm).
+
+Note: you may be able to find local services with far cheaper prices if you stick to predefined shapes, e.g. [LaserMaster](https://www.lasermaster.co.uk/) in the UK will do discs and rings with any desired outer diameter (and inner diameter for rings) for very low prices.
+
+Other materials - laser cut
+---------------------------
+
+Oshcut and some of the other laser cutting services above just specialize in metals. I also wanted some items made from [taskboard](https://www.ponoko.com/materials/white-taskboard).
+
+Ponoko does this but again shipping is expensive for non-US addresses.
+
+The nearest [Sculpteo](https://www.sculpteo.com/) has are plywood, MDF or cardboard - the cellulose and grey compact variants of cardboard would probably be fine.
+
+In the end, I used [Formulor](https://www.formulor.de/) in Germany and went for [Finnboard](https://www.formulor.de/material/finnboard) (which seems to be the German equivalent of taskboard). Unlike the other service, Formulor make very clear that you have to chose from predefined sheet sizes - it doesn't look like they're trying to optimize different people's orders onto larger sheets.
 
 Green/black/etc. screens
 ------------------------
