@@ -75,10 +75,12 @@ while True:
     time.sleep(1)
 ```
 
-Note: the Xiao has an LED on pin 13 whereas the Qt Py had to sacrifice it to make space for a more convenient reset button and a STEMMA connector.
+Note: the Xiao has an LED on pin 13 whereas the Qt Py had to sacrifice it to make space for a more convenient reset button, a STEMMA connector and a NeoPixel.
 
 Setting the motor driver current limit
 --------------------------------------
+
+These notes are based on following the Pololu YouTube video ["Setting the Current Limit on Pololu Stepper Motor Driver Carriers"](https://youtu.be/89BHS9hfSUk).
 
 I'm using the Pololu _Stepper Motor: Bipolar, 200 Steps/Rev, 42×38mm, 2.8V, 1.7 A/Phase_ (part [#2267](https://www.pololu.com/product/2267)) - the important bit here for setting the current limit is the 1.7 A/phase.
 
@@ -97,3 +99,36 @@ Adjusting the potentiometer on the DRV8825 board was quite fiddly - a quarter tu
 Note: as described [here](https://www.youtube.com/watch?v=89BHS9hfSUk&t=353s) we can actually set things a little higher as the driver limits the current to 71% of the maximum but 100% is OK _if we only intended to use the motor in single stepping mode_ - which is the case here. In the referenced video, they're using a 1 A/phase motor, remember to adjust from this to the actual A/phase for the motor you're using.
 
 See [`motor-driver.py`](motor-driver.py)
+
+Power consumption
+-----------------
+
+As you can see in the video (they use a 1 A/phase motor rather than the 1.7 A/phase one used here) the power consumption is very low.
+
+A 12V 1A wall adapter is more than enough to power the DRV8825 board and the motor, e.g. something like [this](https://www.reichelt.com/ch/en/plug-in-power-supply-12-w-12-v-1-a-hnp-12-120v2-p298325.html) costs just &euro;7.
+
+Wiring the leads from the stepper
+---------------------------------
+
+The [product page](https://www.pololu.com/product/2267) for the motor shows this diagram:
+
+![coil wire colors](https://a.pololu-files.com/picture/0J2296.250.gif?d8febaea0bdf653188644bc9354bd0a5)
+
+While the [FAQ page](https://www.pololu.com/product/2133/faqs) for the DRV8825 board shows this diagram:
+
+![coil wire letters](https://a.pololu-files.com/picture/0J2363.200.jpg?f0c6ce618afb2194d6247234050849b5)
+
+And then says:
+
+> The above diagram shows a standard bipolar stepper motor. To control this with the DRV8824/DRV8825, connect stepper leads A and C to board outputs A1 and A2, respectively, and stepper leads B and D to board outputs B1 and B2, respectively.
+
+Wiring
+------
+
+![breadboard](breadboard/breadboard_bb.png)
+
+Don't miss out the tiny wire connecting RESET and SLP together.
+
+The cap is a 100uF 25V electrolytic like this [one](https://www.sparkfun.com/products/96) (I used one of [these](https://www.reichelt.com/ch/en/e-cap-radial-100-uf-25-v-105-c-low-esr-fm-a-100u-25-p200027.html) from Reichelt).
+
+You can then drive the motor with [`motor-driver.py`](motor-driver.py).
