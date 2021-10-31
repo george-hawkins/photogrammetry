@@ -52,7 +52,7 @@ The 44mm standoff length is chosen to create an upper platform that roughly line
 
 The 7mm bolts go thru the 2.5mm channel and 5mm threads in mount. 7mm bolts are used, rather than 8mm ones, as the bolts mustn't extend beyond the other side of the mount.
 
-**Update:** there's very little clearance possible between the small pulley and the heads of the M4 bolts used for the motor mount. An alternative would be the [low-profile 6mm bolts](https://www.gobilda.com/2804-series-zinc-plated-steel-low-profile-socket-head-screw-m4-x-0-7mm-6mm-length-25-pack/) (there are no 7mm variants of the low-profile bolts).
+**Update:** there's very little clearance possible between the small pulley and the heads of the M4 bolts used for the motor mount. An alternative would be the [low-profile 6mm bolts](https://www.gobilda.com/2804-series-zinc-plated-steel-low-profile-socket-head-screw-m4-x-0-7mm-6mm-length-25-pack/) (there are no 7mm variants of the low-profile bolts). But actually, the paper trick (shown in [`assembly.md`](assembly.md)) works well with the normal height heads and results in the pulley being well positioned relative to the larger pulley.
 
 ### Bottom channel
 
