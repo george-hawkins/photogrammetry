@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="280.07999mm"
+   height="280.07999mm"
+   viewBox="0 0 280.07999 280.07999"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-30.158883,-21.354485)"
+     style="fill:none;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path846"
+       cx="170.19888"
+       cy="161.39449"
+       r="140" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1324"
+       cx="170.19888"
+       cy="161.39449"
+       r="7" />
+    <g
+       id="g2277"
+       transform="translate(-159.2916,122.63846)"
+       style="fill:none;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1848"
+         cx="321.49048"
+         cy="30.756029"
+         r="2.5" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1848-3"
+         cx="321.49048"
+         cy="46.756027"
+         r="2.5" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1848-6"
+         cx="337.49048"
+         cy="30.756029"
+         r="2.5" />
+      <g
+         id="g2270"
+         style="fill:none;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <circle
+           style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.08;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1848-7"
+           cx="337.49048"
+           cy="46.756027"
+           r="2.5" />
+      </g>
+    </g>
+  </g>
+</svg>
