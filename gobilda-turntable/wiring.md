@@ -132,3 +132,35 @@ Don't miss out the tiny wire connecting RESET and SLP together.
 The cap is a 100uF 25V electrolytic like this [one](https://www.sparkfun.com/products/96) (I used one of [these](https://www.reichelt.com/ch/en/e-cap-radial-100-uf-25-v-105-c-low-esr-fm-a-100u-25-p200027.html) from Reichelt).
 
 You can then drive the motor with [`motor-driver.py`](motor-driver.py).
+
+Permaproto
+----------
+
+![permaproto](permaproto/permaproto_bb.png)
+
+The yellow and green wires are on the top surface of the permaproto board but run underneath the breakout boards. The main ground wire (right) is the only wire run underneath the permaproto.
+
+**Important:** the 5V and A0 pins of the Xiao had to be snipped off (they aren't needed) in order to fit both boards onto the permaproto.
+
+The button was just added in for experimenting - so I could trigger certain actions directly from the board. I would omit it in a final design and probably route the main ground wire on the top of the permaproto, running from _underneath_ the Xiao diagonally across to where it needs to be connected to the DRV8825 board.
+
+_Basic elements ready to be soldered._  
+![0](permaproto/0-basics-layout.jpg)
+
+_Legs either side of USB connector removed._
+![0](permaproto/1-legs-removed.jpg)
+
+_Barrel jack connector for 12V._  
+![0](permaproto/2-12v-connector.jpg)
+
+_Basic soldering completed._  
+![0](permaproto/3-basics-soldered.jpg)
+
+_Breakout boards soldered._  
+![0](permaproto/4-breakouts-soldered.jpg)
+
+_Final ground wire soldered._  
+![0](permaproto/5-final-ground.jpg)
+
+_Ready to go._  
+![0](permaproto/6-read-to-go.jpg)
