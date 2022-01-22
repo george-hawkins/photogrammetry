@@ -103,6 +103,8 @@ Blender actually uses this operation in its _Volume to Mesh_ modifier - however,
 
 Jeremy also mentions Quad Remesher - a closed source option that he says is "state of the art" - which seems to be reasonably priced ($60 for the Blender plugin - see [here](https://exoside.com/quadremesher/quadremesher-buy/)) and is also available as a 30 day free trial.
 
+**Update:** in his video "The ULTIMATE Automatic Retopology Guide for Blender!", Russell Midfield goes over the same remeshers that Jeremy covers. He comes the conclusion that the paid Exoside Quad Remesher is definitely the best. At the [4m 41s mark](https://www.youtube.com/watch?v=CviZw41IbMg&t=281s) he describes a method get the remeshed version closer to the original hi-poly version (independent of the remesher being used) using a _Multiresolution_ modifier and a _Shrinkwrap_ modifier.
+
 Baking
 ------
 

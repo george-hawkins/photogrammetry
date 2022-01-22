@@ -59,6 +59,8 @@ And as the 9V 6A power supply doesn't use a propreitary connector it's actually 
 Meshroom
 --------
 
+**Update:** once you're used to the simple workflow for Meshroom, check out Gleb Alexandrov's ["Complete Meshroom Tutorial"](https://www.youtube.com/watch?v=j3lhPKF8qjU) for a much more sophisticated workflow. In particular, he covers preprocessing the RAW images with [darktable](https://www.darktable.org/) and a much more sophisticated low-poly mesh (using the shrink-wrap modifier along with normal and displacement maps to create a low-poly result that's far closer to the origina high-poly mech visually).
+
 Copy the image files (`.NEF` and `.JPG`) from the camera SD card to the computer.
 
 Download and install [Meshroom](https://alicevision.org/#meshroom).
@@ -215,3 +217,11 @@ _Camera on tripod with flash._
 Note the cable to help position the tripod foot a consistent distance away from the subject.
 
 I then tried taking multiple photos at different aperture numbers - from 4.2 to 22 - and running them through `detect_blur.py`. The numbers got better as the number decreased from 22, reaching the best values at around 9 before getting worse again as the number reached 4.2. So at around 9, I got the best results but they were still around 25, i.e. nowhere near the 100 threshold.
+
+### Comparison
+
+_Without tripod_  
+![xxx](1-decimate-smooth-render-4000w.png)
+
+_With tripod and flash_  
+![xxx](3-tripod-and-flash.png)
